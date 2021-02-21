@@ -12,3 +12,9 @@ section {
 ::-webkit-scrollbar-track {
   background-color: transparent;
 }
+
+@media (max-width: 768px) {
+  section.contact .form-group:first-child {
+    margin-top: 3em;
+  }
+}
