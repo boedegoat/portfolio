@@ -1,3 +1,14 @@
 section {
   min-height: 420px;
 }
+
+::-webkit-scrollbar {
+  width: 0.35em;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #007bff;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
